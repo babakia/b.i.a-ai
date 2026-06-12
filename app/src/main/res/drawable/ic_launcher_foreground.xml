@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 1. Deep 3D Drop Shadow for the central floating badge -->
+    <path
+        android:fillColor="#22000000"
+        android:pathData="M 54 58 m -31 0 a 31 31 0 1 0 62 0 a 31 31 0 1 0 -62 0" />
+    <path
+        android:fillColor="#15000000"
+        android:pathData="M 54 60 m -31 0 a 31 31 0 1 0 62 0 a 31 31 0 1 0 -62 0" />
+
+    <!-- 2. Luxurious outer gold frame (Amalfi Ochre) -->
+    <path
+        android:fillColor="#EAA83B"
+        android:pathData="M 54 54 m -32 0 a 32 32 0 1 0 64 0 a 32 32 0 1 0 -64 0" />
+
+    <!-- 3. Fine white bevel ring -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54 54 m -30.5 0 a 30.5 30.5 0 1 0 61 0 a 30.5 30.5 0 1 0 -61 0" />
+
+    <!-- 4. Clipped Italy Flag Shield -->
+    <group>
+        <clip-path android:pathData="M 54 54 m -29.5 0 a 29.5 29.5 0 1 0 59 0 a 29.5 29.5 0 1 0 -59 0" />
+
+        <!-- Green Band (Left, covering x=15 to x=44) -->
+        <path
+            android:fillColor="#008C45"
+            android:pathData="M 0 0 h 44 v 108 h -44 z" />
+
+        <!-- White Band (Center, covering x=44 to x=64) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 44 0 h 20 v 108 h -20 z" />
+
+        <!-- Red Band (Right, covering x=64 to x=95) -->
+        <path
+            android:fillColor="#CD212A"
+            android:pathData="M 64 0 h 44 v 108 h -44 z" />
+
+        <!-- High-fidelity Diagonal Gloss / Glass highlight -->
+        <path
+            android:fillColor="#22FFFFFF"
+            android:pathData="M 10 10 L 98 10 L 10 98 Z" />
+        <path
+            android:fillColor="#15FFFFFF"
+            android:pathData="M 24 54 Q 54 24 84 54 Q 54 54 24 54 Z" />
+    </group>
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Italian Flashcards",
+  "description": "Italian language vocabulary spaced-repetition flashcard application suitable for CEFR levels A1-C2.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
